@@ -13,6 +13,12 @@
   }
 }
 
+.App-image {
+  width: 400px;
+  height: 500px;
+  border-radius: 2%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

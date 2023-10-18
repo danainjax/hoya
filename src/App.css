@@ -17,6 +17,8 @@
   width: 400px;
   height: 500px;
   border-radius: 2%;
+  max-width: 100%;
+  height: auto;
 }
 
 .App-header {
@@ -28,6 +30,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  max-width: 100%;
 }
 
 .App-link {

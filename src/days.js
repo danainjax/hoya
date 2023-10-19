@@ -7,6 +7,11 @@ export const days = [
   },
   {
     'title': 'Day 2',
+    'image': 'hoya_2.jpg',
+    'blogText': `10/19/2023 - Thursday : It's a new day. Better picture today. Close up.`,
+  },
+  {
+    'title': 'Coming Soon',
     'image':
       'https://images.unsplash.com/photo-1636654129379-e7ae6f30bfd0?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29taW5nJTIwc29vbnxlbnwwfHwwfHx8MA%3D%3D',
     'blogText': 'Coming Soon...',

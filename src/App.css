@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-image {
   width: 400px;
   height: 500px;
@@ -53,11 +42,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Add media query for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  .App-header {
+    flex-direction: column; /* stack the children vertically */
+    margin: 0; /* reset margin */
+    padding: 10px; /* add some padding */
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-image {
+    width: 90%; /* adjust width for mobile screens */
+    height: auto; /* maintain aspect ratio */
+    margin: 10px auto; /* add margin and auto to horizontally center the image */
+    /* remove other properties that are not necessary */
+  }
+
+  .App-blog-content {
+    width: 90%; /* adjust width for mobile screens */
+    margin: 10px auto; /* centralize the content */
   }
 }

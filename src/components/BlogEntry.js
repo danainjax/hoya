@@ -10,7 +10,12 @@ const BlogEntry = (props) => {
       </div>
       <div className='App-header'>
         <h4>{title}</h4>
-        <img className='App-image' src={image} alt={`Hoya ${title}`} />
+        <img
+          className='App-image'
+          onClick={nextBlogEntry}
+          src={image}
+          alt={`Hoya ${title}`}
+        />
         <div className='App-blog-content'>
           <p>{blogText}</p>
         </div>

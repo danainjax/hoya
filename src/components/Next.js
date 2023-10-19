@@ -3,7 +3,6 @@ const Next = (props) => {
   return (
     <i
       onClick={() => {
-        console.log('click');
         nextBlogEntry();
       }}
       className='fa-solid fa-chevron-right'

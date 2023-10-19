@@ -1,30 +1,29 @@
 import './App.css';
-import Next from './Next';
+import { useState } from 'react';
+import { days } from './days';
+import BlogEntry from './components/BlogEntry';
 
 function App() {
+  const [index, setIndex] = useState(0);
+  const [slide, setNextSlide] = useState(days[index]);
   const nextBlogEntry = () => {
-    console.log('NEXT');
+    if (index + 1 < days?.length) {
+      setIndex(index + 1);
+      setNextSlide(days[index + 1]);
+    } else {
+      setIndex(0);
+      setNextSlide(days[0]);
+    }
   };
 
   return (
     <>
-      <div className='App'>
-        <h1 className='App-title'>Hoya</h1>
-      </div>
-      <div className='App-header'>
-        <h4> Day 1</h4>
-        <img className='App-image' src='hoya_1.jpeg' alt='Hoya Day 1' />
-        <div className='App-blog-content'>
-          <p>
-            Today, 10/18/2023 I received my Hoya plant. I am told it takes 1-2
-            years to flower, and can be tricky to coax into blooming. I look
-            forward to seeing and smelling the blossoms, in time. The plan is to
-            upload a photo per day to track the growth of this plant.{' '}
-          </p>
-        </div>
-
-        <Next nextBlogEntry={nextBlogEntry} />
-      </div>
+      <BlogEntry
+        title={slide?.title}
+        image={slide?.image}
+        blogText={slide?.blogText}
+        nextBlogEntry={nextBlogEntry}
+      />
     </>
   );
 }

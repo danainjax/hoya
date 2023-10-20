@@ -4,7 +4,7 @@ import { days } from './days';
 import BlogEntry from './components/BlogEntry';
 
 function App() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(3);
   const [slide, setNextSlide] = useState(days[index]);
   const nextBlogEntry = () => {
     if (index + 1 < days?.length) {

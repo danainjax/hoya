@@ -16,9 +16,14 @@ export const days = [
     'blogText': `10/19/2023 - Thursday : Closed the curtains in the afternoon. Puppy enjoying a bone, below.`,
   },
   {
-    'title': 'Coming Soon',
+    'title': 'Day 3',
+    'image': 'hoya_3.jpg',
+    'blogText': `10/20/2023 - TGIFriYAY : Beautiful day in Northern Florida. And, it's payday!`,
+  },
+  {
+    'title': 'Coming Soon...',
     'image':
       'https://images.unsplash.com/photo-1636654129379-e7ae6f30bfd0?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29taW5nJTIwc29vbnxlbnwwfHwwfHx8MA%3D%3D',
-    'blogText': 'Coming Soon...',
+    'blogText': 'Check back later for updates...',
   },
 ];

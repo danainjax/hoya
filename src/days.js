@@ -26,4 +26,9 @@ export const days = [
     'image': 'hoya_3.jpg',
     'blogText': `10/20/2023 - TGIFriYAY : Beautiful day in Northern Florida. And, it's payday!`,
   },
+  {
+    'title': 'Day 4',
+    'image': 'hoya_4.jpg',
+    'blogText': `10/21/2023 - Jax Symphony tonight. No change on the plant.`,
+  },
 ];

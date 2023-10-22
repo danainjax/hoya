@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { days } from './days';
 import BlogEntry from './components/BlogEntry';
 
+//TODO- check build;
 function App() {
   const [index, setIndex] = useState(days?.length - 1);
   const [slide, setNextSlide] = useState(days[index]);

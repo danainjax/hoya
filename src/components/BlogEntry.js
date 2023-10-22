@@ -1,13 +1,8 @@
 import '../App.css';
 import Next from './Next';
-import ReactHtmlParser from 'react-html-parser';
 
 const BlogEntry = (props) => {
   const { title, image, blogText, blogVideo, nextBlogEntry } = props;
-
-  const htmlString = blogVideo;
-
-  const parsedVideo = ReactHtmlParser(htmlString);
 
   return (
     <div>
@@ -24,7 +19,10 @@ const BlogEntry = (props) => {
         />
         <div className='App-blog-content'>
           <p>{blogText}</p>
-          {parsedVideo ? parsedVideo : null}
+          <div
+            className='App-blog-content'
+            dangerouslySetInnerHTML={{ __html: blogVideo }}
+          />
         </div>
         <Next nextBlogEntry={nextBlogEntry} />
       </div>

@@ -37,7 +37,7 @@ export const days = [
     'image': 'hoya_5.jpg',
     'blogText': `10/22/2023 - Simone Dinnerstein completely rocked Jacoby Hall last night. Amazing. New brain hamster wheel soundtrack is Philip Glass Etude 6`,
     'blogVideo': `<iframe
-        width='560'
+        width='300'
         height='315'
         src='https://www.youtube.com/embed/GoGxll7fmYk?si=_gahukqXYyFajwcQ'
         title='YouTube video player'

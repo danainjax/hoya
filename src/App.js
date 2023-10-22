@@ -22,6 +22,7 @@ function App() {
         title={slide?.title}
         image={slide?.image}
         blogText={slide?.blogText}
+        blogVideo={slide?.blogVideo}
         nextBlogEntry={nextBlogEntry}
       />
     </>

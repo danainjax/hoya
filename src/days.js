@@ -36,5 +36,14 @@ export const days = [
     'title': 'Day 5',
     'image': 'hoya_5.jpg',
     'blogText': `10/22/2023 - Simone Dinnerstein completely rocked Jacoby Hall last night. Amazing. New brain hamster wheel soundtrack is Philip Glass Etude 6`,
+    'blogVideo': `<iframe
+        width='560'
+        height='315'
+        src='https://www.youtube.com/embed/GoGxll7fmYk?si=_gahukqXYyFajwcQ'
+        title='YouTube video player'
+        frameborder='0'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+        allowfullscreen
+      ></iframe>`,
   },
 ];

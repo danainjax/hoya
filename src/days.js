@@ -45,6 +45,11 @@ export const days = [
     'blogText': `10/23/2023 - Zoom in too much and anything, no matter how perfect it is in it's own way, becomes flawed...even Mondays`,
   },
   {
+    'title': 'Day 7',
+    'image': 'day_7.jpg',
+    'blogText': `10/24/2023 - Kiddo home sick in bed. Delivering soup-on-demand. Life happens.`,
+  },
+  {
     'title': 'Coming Soon...',
     'image':
       'https://images.unsplash.com/photo-1636654129379-e7ae6f30bfd0?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29taW5nJTIwc29vbnxlbnwwfHwwfHx8MA%3D%3D',
@@ -52,8 +57,8 @@ export const days = [
   },
 
   {
-    'title': 'Day 7',
-    'image': 'day_7.jpg',
-    'blogText': `10/24/2023 - Kiddo home sick in bed. Delivering soup-on-demand. Life happens.`,
+    'title': '10/25/2023',
+    'image': 'hoya_8.jpg',
+    'blogText': `Negative covid test, kiddo still sick. Pushing through...`,
   },
 ];
